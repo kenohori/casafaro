@@ -6,11 +6,8 @@ layout: default
 
 <div class="row">
     <div class="col-lg-3">
-        <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-        </svg>
-        <h2 class="fw-normal">Acompañamos</h2>
+        <img class="img-fluid rounded-circle" src="../img/fabi.jpeg" alt="Foto de Fabiola" />
+        <h2 class="fw-normal">Fabiola</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p>
             <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -18,11 +15,8 @@ layout: default
     </div>
     <!-- /.col-lg-3 -->
     <div class="col-lg-3">
-        <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-        </svg>
-        <h2 class="fw-normal">Lab de ideas y acción</h2>
+        <img class="img-fluid rounded-circle" src="../img/Fernando.jpg" alt="Foto de Fernando" />
+        <h2 class="fw-normal">Fernando</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p>
             <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -30,11 +24,8 @@ layout: default
     </div>
     <!-- /.col-lg-3 -->
     <div class="col-lg-3">
-        <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-        </svg>
-        <h2 class="fw-normal">Informamos</h2>
+        <img class="img-fluid rounded-circle" src="../img/meli.jpg" alt="Foto de Melissa" />
+        <h2 class="fw-normal">Melissa</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p>
             <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -42,11 +33,8 @@ layout: default
     </div>
     <!-- /.col-lg-3 -->
     <div class="col-lg-3">
-        <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-        </svg>
-        <h2 class="fw-normal">Informamos</h2>
+        <img class="img-fluid rounded-circle" src="../img/Victor.jpg" alt="Foto de Victor" />
+        <h2 class="fw-normal">Victor</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p>
             <a class="btn btn-secondary" href="#">View details &raquo;</a>
