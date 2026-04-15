@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+}
+@font-face {
+    font-family: 'Host Grotesk';
+    src: url('../fonts/HostGrotesk-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Host Grotesk';
+    src: url('../fonts/HostGrotesk-LightItalic.woff2') format('woff2');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Host Grotesk';
+    src: url('../fonts/HostGrotesk-Medium.woff2') format('woff2');
+    font-weight: bold;
+}
+body {
+  font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+.rojocf {
+  color: #FF303F;
+}
