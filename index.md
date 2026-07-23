@@ -55,30 +55,24 @@ layout: default
 </div>       
 
 <div class="row">
-    <div class="col-lg-3">
+    <div class="col-lg-4">
         <img class="img-fluid rounded-circle" src="../img/Foto FPO.jpeg" alt="Foto de Fabiola" />
         <h2 class="fw-normal rojocf">Fabiola</h2>
         <p>Directora de política y justicia social</p>
     </div>
-    <!-- /.col-lg-3 -->
-    <div class="col-lg-3">
+    <!-- /.col-lg-4 -->
+    <div class="col-lg-4">
         <img class="img-fluid rounded-circle" src="../img/Foto FEG2.jpeg" alt="Foto de Fernando" />
         <h2 class="fw-normal rojocf">Fernando</h2>
         <p>Director de bienestar y salud mental</p>
     </div>
-    <!-- /.col-lg-3 -->
-    <div class="col-lg-3">
+    <!-- /.col-lg-4 -->
+    <div class="col-lg-4">
         <img class="img-fluid rounded-circle" src="../img/meli.jpg" alt="Foto de Melissa" />
         <h2 class="fw-normal rojocf">Melissa</h2>
         <p>Directora de tecnología y sociedad</p>
     </div>
-    <!-- /.col-lg-3 -->
-    <div class="col-lg-3">
-        <img class="img-fluid rounded-circle" src="../img/Foto VPC.jpeg" alt="Foto de Victor" />
-        <h2 class="fw-normal rojocf">Victor</h2>
-        <p>Director de género y paz</p>
-    </div>
-    <!-- /.col-lg-3 -->
+    <!-- /.col-lg-4 -->
 </div>
 
 <div class="row" id="contact">
