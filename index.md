@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<div class="hero-negro">
+    <div class="hero-negro-inner">
+        <p class="hero-negro-text">CasaFaro es un laboratorio interdisciplinario de ideas y acción que trabaja desde una ecología del cuidado para develar y prevenir violencias, reparar daños, fortalecer vínculos y construir condiciones de participación, confianza, sostenibilidad y paz.</p>
+        <img src="img/logo-rojo.svg" class="hero-negro-logo" alt="Logo Casa Faro" loading="lazy" />
+    </div>
+</div>
+
 <div class="row">
     <div class="col-lg-8 align-items-center g-5 py-5">
         <div class="d-flex align-items-center gap-3 mb-3">
