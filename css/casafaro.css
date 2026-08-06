@@ -58,3 +58,94 @@ body {
   height: auto;
   flex-shrink: 0;
 }
+.trabajo-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.trabajo-scheme {
+  display: grid;
+  grid-template-columns: 1fr 44px 1fr 44px 1fr 44px 1fr;
+  align-items: stretch;
+  gap: 16px;
+}
+.trabajo-card {
+  border-radius: 24px;
+  padding: 28px 24px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.trabajo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+.trabajo-card-1 {
+  background: linear-gradient(135deg, #FF303F 0%, #ff5b4a 100%);
+}
+.trabajo-card-2 {
+  background: linear-gradient(135deg, #ff6a3d 0%, #ff8a5c 100%);
+}
+.trabajo-card-3 {
+  background: linear-gradient(135deg, #ff9940 0%, #ffb066 100%);
+}
+.trabajo-card-4 {
+  background: linear-gradient(135deg, #ffbf4d 0%, #ffd699 100%);
+  color: #7a4a00;
+}
+.trabajo-num {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.trabajo-titulo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 12px 0;
+  text-transform: capitalize;
+}
+.trabajo-desc {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+.trabajo-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF303F;
+  font-size: 1.5rem;
+}
+.trabajo-arrow i {
+  animation: trabajo-arrow-pulse 1.6s ease-in-out infinite;
+}
+@keyframes trabajo-arrow-pulse {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+}
+@media (max-width: 991.98px) {
+  .trabajo-scheme {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .trabajo-card {
+    min-height: 160px;
+  }
+  .trabajo-arrow {
+    padding: 4px 0;
+  }
+  .trabajo-arrow-icon {
+    transform: rotate(90deg);
+  }
+  .trabajo-arrow-icon i {
+    animation: trabajo-arrow-pulse-v 1.6s ease-in-out infinite;
+  }
+}
+@keyframes trabajo-arrow-pulse-v {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}

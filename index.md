@@ -9,6 +9,42 @@ layout: default
     </div>
 </div>
 
+<div class="trabajo-section">
+    <div class="row">
+        <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <img src="img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">Nuestro trabajo</h1>
+            </div>
+        </div>
+    </div>
+    <div class="trabajo-scheme">
+        <div class="trabajo-card trabajo-card-1">
+            <span class="trabajo-num">01</span>
+            <h2 class="trabajo-titulo">Atendemos</h2>
+            <p class="trabajo-desc">Violencias, vínculos dañados y traumas</p>
+        </div>
+        <div class="trabajo-arrow"><span class="trabajo-arrow-icon"><i class="fa-solid fa-arrow-right"></i></span></div>
+        <div class="trabajo-card trabajo-card-2">
+            <span class="trabajo-num">02</span>
+            <h2 class="trabajo-titulo">A nivel</h2>
+            <p class="trabajo-desc">Personal, grupal, Institucional, Social</p>
+        </div>
+        <div class="trabajo-arrow"><span class="trabajo-arrow-icon"><i class="fa-solid fa-arrow-right"></i></span></div>
+        <div class="trabajo-card trabajo-card-3">
+            <span class="trabajo-num">03</span>
+            <h2 class="trabajo-titulo">Mediante</h2>
+            <p class="trabajo-desc">Intervenciones psicosociales, Procesos de reparación, enfoques de género y derechos humanos, ciencia y tecnologías, Políticas públicas</p>
+        </div>
+        <div class="trabajo-arrow"><span class="trabajo-arrow-icon"><i class="fa-solid fa-arrow-right"></i></span></div>
+        <div class="trabajo-card trabajo-card-4">
+            <span class="trabajo-num">04</span>
+            <h2 class="trabajo-titulo">Para construir</h2>
+            <p class="trabajo-desc">Bienestar, paz y justicia social</p>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-lg-8 align-items-center g-5 py-5">
         <div class="d-flex align-items-center gap-3 mb-3">
@@ -96,4 +132,34 @@ layout: default
         </div>
     </div> 
 </div>  
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.trabajo-card').forEach(function(card, i) {
+        gsap.from(card, {
+            y: 80,
+            opacity: 0,
+            scale: 0.92,
+            duration: 0.9,
+            ease: 'back.out(1.6)',
+            delay: i * 0.15,
+            scrollTrigger: {
+                trigger: card,
+                start: 'top 85%'
+            }
+        });
+    });
+    gsap.utils.toArray('.trabajo-arrow').forEach(function(arrow, i) {
+        gsap.from(arrow, {
+            opacity: 0,
+            x: -20,
+            duration: 0.6,
+            delay: i * 0.15 + 0.4,
+            scrollTrigger: {
+                trigger: arrow,
+                start: 'top 85%'
+            }
+        });
+    });
+</script>
 
