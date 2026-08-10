@@ -84,17 +84,20 @@ body {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 .trabajo-card-1 {
-  background: linear-gradient(135deg, #FF303F 0%, #ff5b4a 100%);
+  background: linear-gradient(135deg, #FFCBCF 0%, #FFFFFF 100%);
+  color: #6b1f28;
 }
 .trabajo-card-2 {
-  background: linear-gradient(135deg, #ff6a3d 0%, #ff8a5c 100%);
+  background: linear-gradient(135deg, #FF989F 0%, #FFCBCF 100%);
+  color: #6b1f28;
 }
 .trabajo-card-3 {
-  background: linear-gradient(135deg, #ff9940 0%, #ffb066 100%);
+  background: linear-gradient(135deg, #FF646F 0%, #FF989F 100%);
+  color: #ffffff;
 }
 .trabajo-card-4 {
-  background: linear-gradient(135deg, #ffbf4d 0%, #ffd699 100%);
-  color: #7a4a00;
+  background: linear-gradient(135deg, #FF303F 0%, #FF646F 100%);
+  color: #ffffff;
 }
 .trabajo-num {
   font-size: 0.85rem;
