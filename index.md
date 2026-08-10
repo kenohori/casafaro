@@ -49,13 +49,39 @@ layout: default
     <div class="col-lg-8 align-items-center g-5 py-5">
         <div class="d-flex align-items-center gap-3 mb-3">
             <img src="img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Qué es casafaro?</h1>
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Con quiénes trabajamos?</h1>
         </div>
-        <p class="lead">Somos una organización dedicada a transformar las relaciones humanas, institucionales y sociales, impulsando la creación de entornos más conscientes, pacíficos y sostenibles. Casafaro busca contribuir al bienestar de la vida colectiva en cada una de sus dimensiones, al fortalecer comunidades que se conectan y se cuidan.</p>
     </div>
     <div class="col-lg-4 align-items-center g-5 py-5">
         <img src="img/logo-rojo.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="50%" height="50%" loading="lazy">
     </div>  
+</div>
+
+<div class="row g-4 pb-5">
+    <div class="col-lg-3 col-md-6">
+        <div class="trabajamos-card">
+            <h2 class="trabajamos-titulo">Instituciones públicas y organismos internacionales</h2>
+            <p class="trabajamos-desc">Acompañamos a gobiernos y organismos multilaterales en el diseño e implementación de políticas y programas.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="trabajamos-card">
+            <h2 class="trabajamos-titulo">Empresas y organizaciones privadas</h2>
+            <p class="trabajamos-desc">Transformamos culturas organizacionales y fortalecemos vínculos y bienestar en equipos de trabajo.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="trabajamos-card">
+            <h2 class="trabajamos-titulo">Organizaciones sociales y comunitarias</h2>
+            <p class="trabajamos-desc">Impulsamos procesos de reparación, cuidado y participación junto a colectivos y comunidades.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="trabajamos-card">
+            <h2 class="trabajamos-titulo">Academia e instituciones educativas</h2>
+            <p class="trabajamos-desc">Colaboramos con universidades y centros de estudio en investigación, formación y metodologías innovadoras.</p>
+        </div>
+    </div>
 </div>
 
 <div class="row" id="ourwork">

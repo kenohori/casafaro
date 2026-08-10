@@ -11,7 +11,9 @@ layout: default
     </div> 
 </div>       
 
-<p class="lead about-lead">CasaFaro transforma conocimiento en acción. Integramos investigación, innovación social y trabajo territorial con sensibilidad al trauma y rigor metodológico para acompañar contextos complejos y de alta vulnerabilidad. El equipo cuenta con una sólida trayectoria en instituciones y organismos como la ONU, la OEA y la CISS, formación en Harvard, UCL y Erasmus Rotterdam, y experiencia docente en universidades líderes de México.</p>
+<div class="trabajamos-card about-lead-card">
+    <p class="lead about-lead">CasaFaro transforma conocimiento en acción. Integramos investigación, innovación social y trabajo territorial con sensibilidad al trauma y rigor metodológico para acompañar contextos complejos y de alta vulnerabilidad. El equipo cuenta con una sólida trayectoria en instituciones y organismos como la ONU, la OEA y la CISS, formación en Harvard, UCL y Erasmus Rotterdam, y experiencia docente en universidades líderes de México.</p>
+</div>
 
 <div class="row equipo">
     <div class="col-lg-4">
