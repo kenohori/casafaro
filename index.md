@@ -88,36 +88,6 @@ layout: default
     <!-- /.col-lg-4 -->
 </div>
 
-<div class="row" id="about">
-    <div class="col-lg-8 align-items-center g-5 py-5">
-       <div class="d-flex align-items-center gap-3 mb-3"> 
-            <img src="img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy" />
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Quiénes somos?</h1>
-        </div>
-    </div> 
-</div>       
-
-<div class="row">
-    <div class="col-lg-4">
-        <img class="img-fluid rounded-circle" src="../img/Foto FPO.jpeg" alt="Foto de Fabiola" />
-        <h2 class="fw-normal rojocf">Fabiola</h2>
-        <p>Directora de política y justicia social</p>
-    </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-        <img class="img-fluid rounded-circle" src="../img/Foto FEG2.jpeg" alt="Foto de Fernando" />
-        <h2 class="fw-normal rojocf">Fernando</h2>
-        <p>Director de bienestar y salud mental</p>
-    </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-        <img class="img-fluid rounded-circle" src="../img/meli.jpg" alt="Foto de Melissa" />
-        <h2 class="fw-normal rojocf">Melissa</h2>
-        <p>Directora de tecnología y sociedad</p>
-    </div>
-    <!-- /.col-lg-4 -->
-</div>
-
 <div class="row" id="contact">
     <div class="col-lg-12 align-items-center g-5 py-5">
        <div class="d-flex align-items-center gap-3 mb-3"> 
