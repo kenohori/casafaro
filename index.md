@@ -45,6 +45,25 @@ layout: default
     </div>
 </div>
 
+<div class="compromiso-section">
+    <div class="compromiso-card compromiso-card-cumplimiento">
+        <div class="compromiso-cover"></div>
+        <div class="compromiso-data">
+            <span class="compromiso-label">Nuestra promesa</span>
+            <h2 class="compromiso-titulo">Llevamos tu organización más allá del cumplimiento</h2>
+            <span class="compromiso-tag">Cumplimiento &amp; cultura</span>
+        </div>
+    </div>
+    <div class="compromiso-card compromiso-card-cuidado">
+        <div class="compromiso-cover"></div>
+        <div class="compromiso-data">
+            <span class="compromiso-label">Nuestra promesa</span>
+            <h2 class="compromiso-titulo">Cuidamos a los que cuidan</h2>
+            <span class="compromiso-tag">Cuidado &amp; bienestar</span>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-lg-8 align-items-center g-5 py-5">
         <div class="d-flex align-items-center gap-3 mb-3">
@@ -82,36 +101,6 @@ layout: default
             <p class="trabajamos-desc">Colaboramos con universidades y centros de estudio en investigación, formación y metodologías innovadoras.</p>
         </div>
     </div>
-</div>
-
-<div class="row" id="ourwork">
-    <div class="col-lg-12 align-items-center g-5 py-5">
-       <div class="d-flex align-items-center gap-3 mb-3"> 
-            <img src="img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Qué hacemos?</h1>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-4">
-        <img class="img-fluid gif-freeze" src="../img/Acompanar.svg" alt="Figuras humanas enlazadas" />
-        <h2 class="fw-normal">Acompañamos</h2>
-        <p>Construimos intervenciones hechas a la medida, de la mano con instituciones, equipos o comunidades para revisar prácticas, vínculos y culturas relacionales.
-        Brindamos herramientas para facilitar procesos de diálogo, reflexión y transformación que promuevan el bienestar organizacional y comunitario.</p>
-    </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-         <img class="img-fluid gif-freeze" src="../img/Laboratorio.svg" alt="Puños chocando" />
-        <h2 class="fw-normal">Lab de ideas y acción</h2>
-        <p>Bajo un modelo laboratorio de ideas y acción, investigamos, diseñamos y probamos metodologías y herramientas innovadoras y creativas que nos acerquen a entender y fortalecer las relaciones humanas e institucionales.  Documentamos los aprendizajes, dando valor a la experiencia y generando evidencia para incidir en políticas, programas o modelos organizacionales.</p>
-    </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-        <img class="img-fluid gif-freeze" src="../img/Academia.svg" alt="Puños chocando" />
-        <h2 class="fw-normal">Informamos</h2>
-        <p>En nuestra Academia, desarrollamos capacidades humanas, técnicas y éticas en materia de cuidados, corresponsabilidad, liderazgo consciente, gestión de vínculos, relaciones de género y transformación cultural-institucional.  Compartimos  estos datos y experiencias, de manera accesible, para que más personas e instituciones puedan incorporarlos en su práctica y contribuir a entornos más humanos y resilientes.</p>
-    </div>
-    <!-- /.col-lg-4 -->
 </div>
 
 <div class="row" id="contact">

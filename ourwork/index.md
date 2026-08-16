@@ -2,9 +2,14 @@
 layout: default
 ---
 
-# ¿Qué hacemos?
-
-<br />
+<div class="row">
+    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
+        <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Qué hacemos?</h1>
+        </div>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-lg-4">
@@ -35,4 +40,34 @@ layout: default
         </p>
     </div>
     <!-- /.col-lg-4 -->
+</div>
+
+<div class="row">
+    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
+        <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">El cumplimiento normativo es el punto de partida... no el destino</h1>
+        </div>
+    </div>
+</div>
+
+<div class="row pb-3">
+    <div class="col-lg-12">
+        <p>Cumplir con la norma es apenas el inicio. En CasaFaro acompañamos a las organizaciones a ir más allá del checklist: transformamos el cumplimiento normativo en cultura, convirtiendo políticas de género, derechos humanos, anticorrupción y ética en prácticas vivas que construyen confianza interna y legitimidad pública.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
+        <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">Porque quienes cuidan también necesitan cuidados</h1>
+        </div>
+    </div>
+</div>
+
+<div class="row pb-5">
+    <div class="col-lg-12">
+        <p>Quienes sostienen la vida —en equipos, instituciones, familias y comunidades— también necesitan ser cuidados. Trabajamos para que el cuidado sea recíproco y sostenible: diseñamos intervenciones que cuidan a las personas cuidadoras, para que los equipos florezcan y las organizaciones se fortalezcan.</p>
+    </div>
 </div>
