@@ -2,17 +2,18 @@
 layout: default
 ---
 
-<div class="row" id="about">
-    <div class="col-lg-8 align-items-center g-5 py-5">
-       <div class="d-flex align-items-center gap-3 mb-3"> 
-            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy" />
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Quiénes somos?</h1>
+<div class="row align-items-center g-5 py-5" id="nosotros">
+    <div class="col-lg-5">
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="../img/barra.svg" class="img-fluid" alt="" width="28" height="28" loading="lazy">
+            <span class="section-tag section-tag-barra mb-0">¿Quiénes somos?</span>
         </div>
-    </div> 
-</div>       
-
-<div class="trabajamos-card about-lead-card">
-    <p class="lead about-lead">CasaFaro transforma conocimiento en acción. Integramos investigación, innovación social y trabajo territorial con sensibilidad al trauma y rigor metodológico para acompañar contextos complejos y de alta vulnerabilidad. El equipo cuenta con una sólida trayectoria en instituciones y organismos como la ONU, la OEA y la CISS, formación en Harvard, UCL y Erasmus Rotterdam, y experiencia docente en universidades líderes de México.</p>
+        <h2 class="section-title reveal">Transformamos conocimiento en acción.</h2>
+    </div>
+    <div class="col-lg-7">
+        <p class="lead reveal">Integramos investigación, innovación social y trabajo territorial con <strong>sensibilidad al trauma</strong> y <strong>rigor metodológico</strong> para acompañar contextos complejos y de alta vulnerabilidad.</p>
+        <p class="reveal">El equipo cuenta con una sólida trayectoria en instituciones y organismos como la <strong>ONU</strong>, la <strong>OEA</strong> y la <strong>CISS</strong>, formación en <strong>Harvard</strong>, <strong>UCL</strong> y la <strong>Erasmus Rotterdam</strong>, y experiencia docente en universidades líderes de México.</p>
+    </div>
 </div>
 
 <div class="row equipo">
@@ -38,14 +39,18 @@ layout: default
 
 <script>
     gsap.registerPlugin(ScrollTrigger);
-    gsap.from('.about-lead', {
-        opacity: 0,
-        y: 30,
-        duration: 0.8,
-        scrollTrigger: {
-            trigger: '.about-lead',
-            start: 'top 85%'
-        }
+    gsap.utils.toArray('.reveal').forEach(function(el) {
+        gsap.fromTo(el, { y: 48, opacity: 0 }, {
+            y: 0,
+            opacity: 1,
+            duration: 0.9,
+            ease: 'power3.out',
+            scrollTrigger: {
+                trigger: el,
+                start: 'top 86%',
+                toggleActions: 'play none none reverse'
+            }
+        });
     });
     gsap.utils.toArray('.equipo .col-lg-4').forEach(function(col, i) {
         gsap.from(col, {

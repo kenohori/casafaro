@@ -2,72 +2,136 @@
 layout: default
 ---
 
-<div class="row">
-    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
-        <div class="d-flex align-items-center gap-3 mb-3">
-            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">¿Qué hacemos?</h1>
+<section id="empresas" class="section section-white">
+    <div class="container">
+        <div class="section-head">
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <img src="../img/barra.svg" class="img-fluid" alt="" width="28" height="28" loading="lazy">
+                <span class="section-tag section-tag-barra mb-0">Para empresas y organizaciones privadas</span>
+            </div>
+            <h2 class="section-title reveal">El cumplimiento normativo es el punto de partida… no el destino.</h2>
+            <p class="reveal">
+                Más allá de la normativa en materia de riesgos psicosociales, violencia laboral y equidad, nos preguntamos:
+                <strong>¿cómo están realmente las personas que sostienen tu organización?</strong>
+            </p>
         </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-4">
-        <img class="img-fluid gif-freeze" src="../img/teamwork_17850287.gif" alt="Puños chocando" />
-        <h2 class="fw-normal">Acompañamos</h2>
-        <p>Construimos intervenciones hechas a la medida, de la mano con instituciones, equipos o comunidades para revisar prácticas, vínculos y culturas relacionales.
-        Brindamos herramientas para facilitar procesos de diálogo, reflexión y transformación que promuevan el bienestar organizacional y comunitario.</p>
-        <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
+        <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-3">
+                <div class="card-service reveal">
+                    <span class="card-service-num">01</span>
+                    <h3>Diagnóstico participativo</h3>
+                    <p>Evaluamos riesgos psicosociales, clima organizacional y dinámicas de conflicto con instrumentos validados y enfoque cualitativo. Te devolvemos resultados que se entienden y sirven para tomar decisiones reales.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card-service reveal">
+                    <span class="card-service-num">02</span>
+                    <h3>Formación a la medida</h3>
+                    <p>Talleres para tu personal y tus liderazgos: prevención de burnout, gestión del conflicto, comunicación asertiva, entornos organizacionales favorables, prevención de violencia y acoso laboral, género y masculinidades.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card-service reveal">
+                    <span class="card-service-num">03</span>
+                    <h3>Políticas y protocolos</h3>
+                    <p>Diseñamos o actualizamos tus documentos internos: manuales, políticas de prevención, guías de actuación. Gestionamos cumplimiento normativo con sentido.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card-service reveal">
+                    <span class="card-service-num">04</span>
+                    <h3>Intervención sostenida</h3>
+                    <p>Acompañamiento continuo para transformar cultura organizacional desde adentro, con metodologías participativas y seguimiento a indicadores reales de mejora.</p>
+                </div>
+            </div>
+        </div>
+        <p class="section-note reveal">
+            Acompañamos a organizaciones de todos los tamaños, desde micro, pequeñas y medianas empresas hasta
+            grandes corporaciones. Adaptamos cada intervención a su contexto, necesidades y capacidades, manteniendo
+            siempre el mismo compromiso con el impacto y los resultados.
         </p>
     </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-         <img class="img-fluid gif-freeze" src="../img/software_17122726.gif" alt="Puños chocando" />
-        <h2 class="fw-normal">Lab de ideas y acción</h2>
-        <p><i class="fa-solid fa-people-robbery"></i>Bajo un modelo laboratorio de ideas y acción, investigamos, diseñamos y probamos metodologías y herramientas innovadoras y creativas que nos acerquen a entender y fortalecer las relaciones humanas e institucionales.  Documentamos los aprendizajes, dando valor a la experiencia y generando evidencia para incidir en políticas, programas o modelos organizacionales.</p>
-        <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
+</section>
+
+<section id="sociedad-civil" class="section section-tint">
+    <div class="container">
+        <div class="section-head">
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <img src="../img/barra.svg" class="img-fluid" alt="" width="28" height="28" loading="lazy">
+                <span class="section-tag section-tag-barra mb-0">Para sociedad civil e instituciones públicas</span>
+            </div>
+            <h2 class="section-title reveal">Porque quienes cuidan también necesitan cuidados.</h2>
+            <p class="reveal">
+                Las organizaciones de la sociedad civil y las instituciones públicas enfrentan un reto particular: trabajan
+                por el bienestar de otras personas desde estructuras que con frecuencia descuidan el suyo. El desgaste,
+                el trauma vicario, los conflictos internos y la falta de estrategias de cuidado colectivo son algunos de los
+                desafíos más silenciosos y costosos del sector.
+            </p>
+        </div>
+        <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service reveal">
+                    <span class="card-service-num">01</span>
+                    <h3>Diagnósticos institucionales</h3>
+                    <p>Analizamos clima organizacional, riesgos psicosociales y dinámicas de conflicto con metodologías participativas que no solo miden: activan conversación y comprensión.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service reveal">
+                    <span class="card-service-num">02</span>
+                    <h3>Espacios de escucha y cuidado</h3>
+                    <p>Procesos grupales de contención para equipos en desgaste, en crisis institucional o en transición.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service reveal">
+                    <span class="card-service-num">03</span>
+                    <h3>Formación especializada</h3>
+                    <p>Capacitación en bienestar laboral, prevención de violencias, equidad de género, masculinidades, derechos humanos y cultura digital.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service reveal">
+                    <span class="card-service-num">04</span>
+                    <h3>Modelos de cuidado institucional</h3>
+                    <p>Acompañamos el diseño de estrategias sostenibles de cuidado colectivo adaptadas a la identidad y las necesidades de cada organización.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service reveal">
+                    <span class="card-service-num">05</span>
+                    <h3>Facilitación y gestión de conflictos</h3>
+                    <p>Acompañamos conversaciones difíciles, procesos de mediación y construcción de acuerdos al interior de equipos e instituciones.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card-service card-service-cta reveal">
+                    <h3 class="mb-3">¿Tu organización necesita cuidados?</h3>
+                    <p>Construyamos juntos una cultura interna más humana, equitativa y sostenible.</p>
+                    <a href="{{ site.baseurl }}/contact" class="btn btn-cf btn-cf-red mt-2">Hablemos</a>
+                </div>
+            </div>
+        </div>
+        <p class="section-note reveal">
+            Acompañamos a organizaciones de todos los tamaños. Adaptamos cada intervención a su contexto, necesidades
+            y capacidades, manteniendo siempre el mismo compromiso con el impacto y los resultados.
         </p>
     </div>
-    <!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-        <img class="img-fluid gif-freeze" src="../img/world-creativity-innovation-day_15557658.gif" alt="Puños chocando" />
-        <h2 class="fw-normal">Informamos</h2>
-        <p>En nuestra Academia, desarrollamos capacidades humanas, técnicas y éticas en materia de cuidados, corresponsabilidad, liderazgo consciente, gestión de vínculos, relaciones de género y transformación cultural-institucional.  Compartimos  estos datos y experiencias, de manera accesible, para que más personas e instituciones puedan incorporarlos en su práctica y contribuir a entornos más humanos y resilientes.</p>
-        <p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
-        </p>
-    </div>
-    <!-- /.col-lg-4 -->
-</div>
+</section>
 
-<div class="row">
-    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
-        <div class="d-flex align-items-center gap-3 mb-3">
-            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">El cumplimiento normativo es el punto de partida... no el destino</h1>
-        </div>
-    </div>
-</div>
-
-<div class="row pb-3">
-    <div class="col-lg-12">
-        <p>Cumplir con la norma es apenas el inicio. En CasaFaro acompañamos a las organizaciones a ir más allá del checklist: transformamos el cumplimiento normativo en cultura, convirtiendo políticas de género, derechos humanos, anticorrupción y ética en prácticas vivas que construyen confianza interna y legitimidad pública.</p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
-        <div class="d-flex align-items-center gap-3 mb-3">
-            <img src="../img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">Porque quienes cuidan también necesitan cuidados</h1>
-        </div>
-    </div>
-</div>
-
-<div class="row pb-5">
-    <div class="col-lg-12">
-        <p>Quienes sostienen la vida —en equipos, instituciones, familias y comunidades— también necesitan ser cuidados. Trabajamos para que el cuidado sea recíproco y sostenible: diseñamos intervenciones que cuidan a las personas cuidadoras, para que los equipos florezcan y las organizaciones se fortalezcan.</p>
-    </div>
-</div>
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.reveal').forEach(function(el) {
+        gsap.fromTo(el, { y: 48, opacity: 0 }, {
+            y: 0,
+            opacity: 1,
+            duration: 0.9,
+            ease: 'power3.out',
+            scrollTrigger: {
+                trigger: el,
+                start: 'top 86%',
+                toggleActions: 'play none none reverse'
+            }
+        });
+    });
+</script>

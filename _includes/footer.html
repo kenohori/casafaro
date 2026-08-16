@@ -1,1 +1,37 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row g-5 align-items-end">
+            <div class="col-lg-7">
+                <div class="footer-brand">
+                    <img src="{{ site.baseurl }}/img/logo-texto-rojo.svg" alt="CasaFaro" class="brand-logo-text">
+                </div>
+                <p class="footer-tagline">
+                    Un laboratorio interdisciplinario de ideas y acción, trabajando desde una ecología del cuidado.
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <h3 class="footer-title">Hablemos</h3>
+                <div class="footer-links">
+                    <a href="https://casafaro.mx" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i>casafaro.mx</a>
+                    <a href="mailto:hola@casafaro.mx"><i class="fa-solid fa-envelope"></i>hola@casafaro.mx</a>
+                    <a href="https://instagram.com/casa.faromx" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i>@casa.faromx</a>
+                    <a href="https://www.linkedin.com/company/casafaromx/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i>casafaromx</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <span>© 2026 CasaFaro. Ciudad de México.</span>
+            <span class="footer-bottom-tag">CDMX 2026</span>
+        </div>
+    </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+    var nav = document.getElementById("mainNav");
+    var toggleNav = function () {
+        nav.classList.toggle("scrolled", window.scrollY > 40);
+    };
+    toggleNav();
+    window.addEventListener("scroll", toggleNav, { passive: true });
+</script>

@@ -2,14 +2,39 @@
 layout: default
 ---
 
-<div class="hero-negro">
-    <div class="hero-negro-inner">
-        <p class="hero-negro-text">CasaFaro es un laboratorio interdisciplinario de ideas y acción que trabaja desde una ecología del cuidado para develar y prevenir violencias, reparar daños, fortalecer vínculos y construir condiciones de participación, confianza, sostenibilidad y paz.</p>
-        <img src="img/logo-rojo.svg" class="hero-negro-logo" alt="Logo Casa Faro" loading="lazy" />
+<header id="inicio" class="hero d-flex align-items-center">
+    <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-3" aria-hidden="true"></div>
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-lg-9 col-xl-8">
+                <div class="d-flex align-items-center gap-3 mb-4 reveal-hero">
+                    <img src="img/barra.svg" class="img-fluid" alt="" width="28" height="28" loading="lazy">
+                    <p class="hero-eyebrow mb-0">Laboratorio interdisciplinario de ideas y acción</p>
+                </div>
+                <h1 class="hero-title reveal-hero">
+                    Trabajamos desde una <span class="rojocf">ecología del cuidado</span> para prevenir violencias, reparar daños y construir <span class="rojocf">paz</span>.
+                </h1>
+                <p class="hero-sub reveal-hero">
+                    Develamos y prevenimos violencias, fortalecemos vínculos y construimos condiciones de participación, confianza, sostenibilidad y paz.
+                </p>
+                <div class="hero-actions reveal-hero">
+                    <a href="{{ site.baseurl }}/about" class="btn btn-cf btn-cf-red btn-lg">Conócenos</a>
+                    <a href="#trabajo" class="btn btn-cf btn-cf-outline btn-lg">Nuestro trabajo</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="hero-footer" aria-hidden="true">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="hero-footer-tag">ecología del cuidado</span>
+            <span class="hero-footer-tag rojocf">CasaFaro</span>
+        </div>
+    </div>
+</header>
 
-<div class="trabajo-section">
+<div class="trabajo-section" id="trabajo">
     <div class="row">
         <div class="col-lg-12 align-items-center g-5 pt-5 pb-3">
             <div class="d-flex align-items-center gap-3 mb-3">
@@ -46,22 +71,26 @@ layout: default
 </div>
 
 <div class="compromiso-section">
-    <div class="compromiso-card compromiso-card-cumplimiento">
-        <div class="compromiso-cover"></div>
-        <div class="compromiso-data">
-            <span class="compromiso-label">Nuestra promesa</span>
-            <h2 class="compromiso-titulo">Llevamos tu organización más allá del cumplimiento</h2>
-            <span class="compromiso-tag">Cumplimiento &amp; cultura</span>
+    <a href="{{ site.baseurl }}/ourwork#empresas">
+        <div class="compromiso-card compromiso-card-cumplimiento">
+            <div class="compromiso-cover"></div>
+            <div class="compromiso-data">
+                <span class="compromiso-label">Nuestra promesa</span>
+                <h2 class="compromiso-titulo">Llevamos tu organización más allá del cumplimiento</h2>
+                <span class="compromiso-tag">Cumplimiento &amp; cultura</span>
+            </div>
         </div>
-    </div>
-    <div class="compromiso-card compromiso-card-cuidado">
-        <div class="compromiso-cover"></div>
-        <div class="compromiso-data">
-            <span class="compromiso-label">Nuestra promesa</span>
-            <h2 class="compromiso-titulo">Cuidamos a los que cuidan</h2>
-            <span class="compromiso-tag">Cuidado &amp; bienestar</span>
+    </a>
+    <a href="{{ site.baseurl }}/ourwork#sociedad-civil">
+        <div class="compromiso-card compromiso-card-cuidado">
+            <div class="compromiso-cover"></div>
+            <div class="compromiso-data">
+                <span class="compromiso-label">Nuestra promesa</span>
+                <h2 class="compromiso-titulo">Cuidamos a los que cuidan</h2>
+                <span class="compromiso-tag">Cuidado &amp; bienestar</span>
+            </div>
         </div>
-    </div>
+    </a>
 </div>
 
 <div class="row">
@@ -103,23 +132,39 @@ layout: default
     </div>
 </div>
 
-<div class="row" id="contact">
-    <div class="col-lg-12 align-items-center g-5 py-5">
-       <div class="d-flex align-items-center gap-3 mb-3"> 
-            <img src="img/barra.svg" class="img-fluid" alt="Bootstrap Themes" width="90pt" height="90pt" loading="lazy" />
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-0">Contáctanos</h1>
-        </div>
-    </div> 
-    <div class="col-lg-12 align-items-center">
-        <div class="d-flex flex-column align-items-center">
-            <img src="img/sobre.svg" alt="Correo" width="150" height="150" class="mb-2" />
-            <a href="mailto:hola@casafaro.onmicrosoft.com" class="lead text-body-emphasis">hola@casafaro.onmicrosoft.com</a>
-        </div>
-    </div> 
-</div>  
+<section class="cta-band">
+    <div class="container text-center">
+        <h2 class="cta-title">¿Cómo están realmente las personas que sostienen tu organización?</h2>
+        <p class="cta-text">Acompañamos a organizaciones de todos los tamaños a construir culturas más humanas, equitativas y sostenibles.</p>
+        <a href="{{ site.baseurl }}/contact" class="btn btn-cf btn-cf-white btn-lg">Hablemos</a>
+    </div>
+</section>
 
 <script>
     gsap.registerPlugin(ScrollTrigger);
+    gsap.to(".hero-blob-1", {
+        y: -30,
+        duration: 4.5,
+        yoyo: true,
+        repeat: -1,
+        ease: 'sine.inOut'
+    });
+    gsap.to(".hero-blob-2", {
+        y: 22,
+        duration: 5,
+        yoyo: true,
+        repeat: -1,
+        ease: 'sine.inOut'
+    });
+    gsap.to(".hero-blob-3", {
+        scale: 1.15,
+        duration: 3.6,
+        yoyo: true,
+        repeat: -1,
+        ease: 'sine.inOut'
+    });
+    var heroIntro = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    heroIntro.fromTo('.reveal-hero', { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.16 }, 0.15);
     gsap.utils.toArray('.trabajo-card').forEach(function(card, i) {
         gsap.from(card, {
             y: 80,
