@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — CasaFaro</title>
+  <meta name="description" content="Escríbenos a CasaFaro. hola@casafaro.mx · casafaro.mx · Ciudad de México.">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contacto">
+
+  <!-- Scroll progress bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-texto-rojo.svg" alt="CasaFaro" class="brand-logo-text">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" data-nav="home" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav="nosotros" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav="que-hacemos" href="que-hacemos.html">Qué hacemos</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav="empresas" href="empresas.html">Para empresas</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav="sociedad-civil" href="sociedad-civil.html">Sociedad civil</a></li>
+          <li class="nav-item"><a class="btn btn-cf btn-cf-red btn-sm nav-cta" data-nav="contacto" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+    <div class="container position-relative">
+      <p class="hero-eyebrow reveal-hero">Contacto</p>
+      <h1 class="page-title reveal-hero">Hablemos.</h1>
+      <p class="page-sub reveal-hero">
+        Construyamos juntos condiciones de participación, confianza, sostenibilidad y paz.
+      </p>
+    </div>
+  </header>
+
+  <!-- CONTACT -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="section-tag">Información de contacto</div>
+          <h2 class="section-title reveal">Estamos en Ciudad de México.</h2>
+          <div class="contact-list mt-4">
+            <a class="contact-item reveal" href="https://casafaro.mx" target="_blank" rel="noopener">
+              <span class="contact-item-icon"><i class="fa-solid fa-globe"></i></span>
+              <span>
+                <strong>Sitio web</strong><br>
+                casafaro.mx
+              </span>
+            </a>
+            <a class="contact-item reveal" href="mailto:hola@casafaro.mx">
+              <span class="contact-item-icon"><i class="fa-solid fa-envelope"></i></span>
+              <span>
+                <strong>Correo</strong><br>
+                hola@casafaro.mx
+              </span>
+            </a>
+            <a class="contact-item reveal" href="https://instagram.com/casa.faromx" target="_blank" rel="noopener">
+              <span class="contact-item-icon"><i class="fa-brands fa-instagram"></i></span>
+              <span>
+                <strong>Instagram</strong><br>
+                @casa.faromx
+              </span>
+            </a>
+            <a class="contact-item reveal" href="https://www.linkedin.com/company/casafaromx/" target="_blank" rel="noopener">
+              <span class="contact-item-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+              <span>
+                <strong>LinkedIn</strong><br>
+                casafaromx
+              </span>
+            </a>
+            <div class="contact-item reveal">
+              <span class="contact-item-icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span>
+                <strong>Ubicación</strong><br>
+                Ciudad de México
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form id="contactForm" class="contact-form reveal" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="nombre">Nombre*</label>
+                <input class="form-control" type="text" id="nombre" name="nombre" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="organizacion">Organización</label>
+                <input class="form-control" type="text" id="organizacion" name="organizacion">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="correo">Correo*</label>
+                <input class="form-control" type="email" id="correo" name="correo" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="asunto">¿Cómo podemos ayudarte?</label>
+                <select class="form-select" id="asunto" name="asunto">
+                  <option value="Empresas y organizaciones privadas">Empresas y organizaciones privadas</option>
+                  <option value="Sociedad civil e instituciones públicas">Sociedad civil e instituciones públicas</option>
+                  <option value="Academia e instituciones educativas">Academia e instituciones educativas</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="mensaje">Mensaje*</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-cf btn-cf-red btn-lg w-100">Enviar mensaje</button>
+                <p class="form-hint mt-3 mb-0">Al enviar se abrirá tu cliente de correo con el mensaje listo para enviarse a hola@casafaro.mx</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-7">
+          <div class="footer-brand reveal">
+            <img src="img/logo-texto-rojo.svg" alt="CasaFaro" class="brand-logo-text">
+          </div>
+          <p class="footer-tagline reveal">
+            Un laboratorio interdisciplinario de ideas y acción, trabajando desde una ecología del cuidado.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="footer-title reveal">Hablemos</h3>
+          <div class="footer-links reveal">
+            <a href="https://casafaro.mx" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i>casafaro.mx</a>
+            <a href="mailto:hola@casafaro.mx"><i class="fa-solid fa-envelope"></i>hola@casafaro.mx</a>
+            <a href="https://instagram.com/casa.faromx" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i>@casa.faromx</a>
+            <a href="https://www.linkedin.com/company/casafaromx/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i>casafaromx</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <span>© 2026 CasaFaro. Ciudad de México.</span>
+        <span class="footer-bottom-tag">CDMX 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <!-- Main -->
+  <script src="js/main.js"></script>
+</body>
+</html>
