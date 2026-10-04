@@ -1,0 +1,46 @@
+# Recursos de CasaFaro
+# Agrega aquí las plantillas y artículos realizados por el equipo.
+# - tipo:        categoría del recurso (ej. "Plantilla", "Artículo", "Guía")
+# - titulo:      nombre del recurso
+# - descripcion: breve descripción
+# - autor:       persona o área que lo realizó (opcional)
+# - url:         enlace al archivo o artículo (opcional)
+# - destacado:   true para mostrarlo como recurso destacado (opcional)
+
+- tipo: Plantilla
+  titulo: Plantilla de diagnóstico participativo
+  descripcion: Instrumento base para evaluar clima organizacional y riesgos psicosociales con enfoque participativo.
+  autor: Equipo CasaFaro
+  url: "#"
+  destacado: true
+
+- tipo: Artículo
+  titulo: Cuidar a quienes cuidan
+  descripcion: Reflexiones sobre desgaste y trauma vicario en organizaciones de la sociedad civil.
+  autor: Dirección de bienestar y salud mental
+  url: "#"
+  destacado: true
+
+- tipo: Guía
+  titulo: Guía de actuación ante violencia laboral
+  descripcion: Pasos y criterios para gestionar reportes internos con sensibilidad al trauma.
+  autor: Dirección de política y justicia social
+  url: "#"
+
+- tipo: Plantilla
+  titulo: Protocolo de prevención de acoso
+  descripcion: Documento editable para adaptar protocolos internos conforme a la normativa vigente.
+  autor: Equipo CasaFaro
+  url: "#"
+
+- tipo: Artículo
+  titulo: Género y masculinidades en las organizaciones
+  descripcion: Claves para incorporar una perspectiva de género en la cultura institucional.
+  autor: Dirección de política y justicia social
+  url: "#"
+
+- tipo: Guía
+  titulo: Cultura digital y bienestar
+  descripcion: Recomendaciones para entornos digitales más sanos y equitativos.
+  autor: Dirección de tecnología y sociedad
+  url: "#"

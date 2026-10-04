@@ -86,7 +86,7 @@ layout: default
             <div class="compromiso-cover"></div>
             <div class="compromiso-data">
                 <span class="compromiso-label">Nuestra promesa</span>
-                <h2 class="compromiso-titulo">Cuidamos a los que cuidan</h2>
+                <h2 class="compromiso-titulo">Cuidamos a quienes cuidan</h2>
                 <span class="compromiso-tag">Cuidado &amp; bienestar</span>
             </div>
         </div>

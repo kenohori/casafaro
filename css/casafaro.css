@@ -225,6 +225,75 @@ body {
   border-color: #000000;
 }
 
+/* ---------- Recursos ---------- */
+.card-recurso {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #ffffff;
+  border: 1px solid #E2E2E2;
+  border-radius: 20px;
+  padding: 2rem 1.7rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-recurso::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.7rem;
+  right: 1.7rem;
+  height: 3px;
+  background: #FF303F;
+  border-radius: 0 0 3px 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.card-recurso:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 34px rgba(255, 48, 63, 0.28);
+}
+.card-recurso:hover::before {
+  transform: scaleX(1);
+}
+.recurso-tipo {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #FF303F;
+  background: #FFD7D7;
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  margin-bottom: 1.1rem;
+}
+.recurso-titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0.7rem;
+}
+.recurso-desc {
+  font-size: 0.95rem;
+  color: #68696C;
+  margin-bottom: 1rem;
+}
+.recurso-autor {
+  display: block;
+  font-size: 0.82rem;
+  color: #ADAEB2;
+  margin-bottom: 1.4rem;
+}
+.recurso-link {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   min-height: 100vh;
