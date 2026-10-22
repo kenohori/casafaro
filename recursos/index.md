@@ -59,7 +59,7 @@ layout: default
             scrollTrigger: {
                 trigger: el,
                 start: 'top 86%',
-                toggleActions: 'play none reverse none'
+                toggleActions: 'play none none reverse'
             }
         });
     });
