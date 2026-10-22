@@ -44,3 +44,9 @@
   descripcion: Recomendaciones para entornos digitales más sanos y equitativos.
   autor: Dirección de tecnología y sociedad
   url: "#"
+
+- tipo: Herramienta
+  titulo: Herramienta ProQOL 5
+  descripcion: Cuestionario de autoevaluación en línea (ProQOL 5) para medir satisfacción compasiva, desgaste y estrés traumático secundario en equipos de cuidado.
+  autor: Equipo CasaFaro
+  url: "/recursos/proqol5/"
