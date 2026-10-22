@@ -53,6 +53,10 @@ layout: default
     </div>
 </section>
 
+<div class="container py-5">
+    <img src="../img/taller-formacion.jpg" class="img-fluid rounded-4 shadow w-100 reveal" alt="Equipo de CasaFaro facilitando un taller de formación" loading="lazy">
+</div>
+
 <section id="sociedad-civil" class="section section-tint">
     <div class="container">
         <div class="section-head">
