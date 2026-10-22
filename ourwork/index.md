@@ -45,17 +45,20 @@ layout: default
                 </div>
             </div>
         </div>
-        <p class="section-note reveal">
-            Acompañamos a organizaciones de todos los tamaños, desde micro, pequeñas y medianas empresas hasta
-            grandes corporaciones. Adaptamos cada intervención a su contexto, necesidades y capacidades, manteniendo
-            siempre el mismo compromiso con el impacto y los resultados.
-        </p>
+        <div class="row align-items-center g-5 mt-4">
+            <div class="col-lg-5">
+                <img src="../img/taller-formacion.jpg" class="img-fluid rounded-4 shadow w-100 reveal" alt="Equipo de CasaFaro facilitando un taller de formación" loading="lazy">
+            </div>
+            <div class="col-lg-7">
+                <p class="section-note reveal mb-0">
+                    Acompañamos a organizaciones de todos los tamaños, desde micro, pequeñas y medianas empresas hasta
+                    grandes corporaciones. Adaptamos cada intervención a su contexto, necesidades y capacidades, manteniendo
+                    siempre el mismo compromiso con el impacto y los resultados.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
-
-<div class="container py-5">
-    <img src="../img/taller-formacion.jpg" class="img-fluid rounded-4 shadow w-100 reveal" alt="Equipo de CasaFaro facilitando un taller de formación" loading="lazy">
-</div>
 
 <section id="sociedad-civil" class="section section-tint">
     <div class="container">
