@@ -1,0 +1,19 @@
+function doPost(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var data = JSON.parse(e.postData.contents);
+  sheet.appendRow([
+    new Date(),
+    data.id || '',
+    data.periodo || '',
+    data.instrumento || '',
+    data.genero || '',
+    data.edad || '',
+    data.sector || '',
+    JSON.stringify(data.respuestas || []),
+    data.cs,
+    data.bo,
+    data.sts
+  ]);
+  return ContentService.createTextOutput(JSON.stringify({ ok: true }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
