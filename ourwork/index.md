@@ -1,5 +1,10 @@
 ---
 layout: default
+title: Qué hacemos
+description: >-
+  Acompañamos a organizaciones públicas, privadas y de la sociedad civil a
+  prevenir riesgos psicosociales, fortalecer el bienestar y construir culturas
+  de cuidado.
 ---
 
 <section id="empresas" class="section section-white">

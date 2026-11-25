@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Ecología del cuidado
+description: >-
+  Trabajamos desde una ecología del cuidado para prevenir violencias, reparar
+  daños y construir paz con organizaciones, comunidades e instituciones.
 ---
 
 <header id="inicio" class="hero d-flex align-items-center">

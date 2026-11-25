@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Recursos
+description: >-
+  Plantillas, artículos y herramientas para acompañar procesos de cuidado,
+  prevención de violencias y construcción de paz.
 ---
 
 <section class="section section-white">
