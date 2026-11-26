@@ -15,6 +15,9 @@ rbenv) rather than through Bundler.
 
 - Serve locally with live rebuild: `jekyll serve`
 - One-off build to `_site/`: `jekyll build`
+- Deploy to casafaro.mx: `bin/deploy.sh` (builds into a temp dir, mirrors it to
+  `/var/www/casafaro` over SSH, then verifies file hashes and live URLs). Run
+  `bin/deploy.sh --help` for flags; `--dry-run` shows the change set.
 
 There is no lint or test command in this repo.
 

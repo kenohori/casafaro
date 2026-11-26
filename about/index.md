@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Quiénes somos
+description: >-
+  Equipo interdisciplinario que integra investigación, innovación social y
+  trabajo territorial con sensibilidad al trauma y rigor metodológico.
 ---
 
 <div class="row align-items-center g-5 py-5" id="nosotros">

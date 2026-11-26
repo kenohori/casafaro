@@ -1,9 +1,9 @@
-title: Casa Faro
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: CasaFaro
+email: hola@casafaro.mx
+description: >-
+  Laboratorio interdisciplinario de ideas y acción que trabaja desde una
+  ecología del cuidado para prevenir violencias, reparar daños y construir paz
+  con organizaciones, comunidades e instituciones.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://casafaro.mx"
 
@@ -11,3 +11,24 @@ url: "https://casafaro.mx"
 # theme: minima
 # plugins:
 #   - jekyll-feed
+
+# Development tooling that must not be published with the site.
+# Defining `exclude` replaces Jekyll's defaults, so the defaults are repeated.
+exclude:
+  - bin
+  - CLAUDE.md
+  - AGENTS.md
+  - README.md
+  - "borrador casafaro"
+  - "borrador casafaro 2"
+  - recursos/proqol5/apps-script-recolector.gs.txt
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
